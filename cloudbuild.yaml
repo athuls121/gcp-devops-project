@@ -17,4 +17,3 @@ steps:
     - --cluster=gcp-devops-project-cluster
     - --namespace=gcp-devops-prod
   
-  
