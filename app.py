@@ -9,7 +9,7 @@ def home():
 @app.route('/greet', methods=['POST'])
 def greet():
     name = request.form['name']
-    greeting = f"Hello, {name}! Welcome to the Luxurious Flask Application."
+    greeting = f"Hello, {name}! Welcome to the InsightIQ Web Application."
     return render_template('home.html', greeting=greeting)
 
 if __name__ == '__main__':
